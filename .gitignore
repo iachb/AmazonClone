@@ -1,0 +1,87 @@
+# =============================
+# OS / Editor
+# =============================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS (if any contributors use macOS)
+.DS_Store
+
+# VS Code
+.vscode/
+
+# JetBrains Rider / ReSharper
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# =============================
+# .NET / Visual Studio / MSBuild
+# =============================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/publish/
+**/TestResults/
+**/GeneratedFiles/
+
+# NuGet packages (built artifacts)
+*.nupkg
+*.snupkg
+
+# Legacy packages folder (rare; ignore if present)
+packages/
+
+# Logs
+*.log
+logs/
+
+# ASP.NET Core secret store
+secrets.json
+
+# =============================
+# Frontend (Node/JS frameworks)
+# =============================
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Common framework caches
+.cache/
+.parcel-cache/
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+.storybook-static/
+
+# Cypress artifacts
+cypress/videos/
+cypress/screenshots/
+
+# Env files (commit an example instead)
+.env
+.env.*
+!.env.example
+
+# =============================
+# Misc temporary files
+# =============================
+*.swp
+*.swo
+.temp/
+tmp/
