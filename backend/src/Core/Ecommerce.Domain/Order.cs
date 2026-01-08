@@ -14,7 +14,8 @@ namespace Ecommerce.Domain
             decimal total,
             decimal tax,
             decimal shippingPrice
-        ){
+        )
+        {
             BuyerName = buyerName;
             BuyerUsername = buyerEmail;
             OrderAddress = orderAdress;
