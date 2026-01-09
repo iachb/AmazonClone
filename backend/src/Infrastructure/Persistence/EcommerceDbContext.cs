@@ -8,7 +8,7 @@ namespace Ecommerce.Infrastructure.Persistence
     public class EcommerceDbContext : IdentityDbContext<User>
     {
         public EcommerceDbContext(DbContextOptions<EcommerceDbContext> options) : base(options)
-        {}
+        { }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -33,7 +33,7 @@ namespace Ecommerce.Infrastructure.Persistence
                 .HasForeignKey(r => r.ProductId)
                 .IsRequired()
                 .OnDelete(DeleteBehavior.Cascade);
-            
+
             builder.Entity<ShoppingCart>()
                 .HasMany(p => p.ShoppingCartItems)
                 .WithOne(r => r.ShoppingCart)
@@ -50,7 +50,7 @@ namespace Ecommerce.Infrastructure.Persistence
         public DbSet<Category>? Categories { get; set; }
         public DbSet<Image>? Images { get; set; }
         public DbSet<Address>? Addresses { get; set; }
-        public DbSet<Order>? Orders {  get; set; }
+        public DbSet<Order>? Orders { get; set; }
         public DbSet<OrderItem>? OrderItems { get; set; }
         public DbSet<Review>? Reviews { get; set; }
         public DbSet<ShoppingCart>? ShoppingCarts { get; set; }
