@@ -11,5 +11,6 @@ namespace Ecommerce.Domain
         [Column(TypeName = "NVARCHAR(4000)")]
         public string? Comment { get; set; }
         public int ProductId { get; set; }
+        public virtual Product? Product { get; set; }
     }
 }
