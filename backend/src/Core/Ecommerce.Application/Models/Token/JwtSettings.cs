@@ -1,4 +1,4 @@
-﻿namespace Ecommerce.Application.Token
+﻿namespace Ecommerce.Application.Models.Token
 {
     public class JwtSettings
     {

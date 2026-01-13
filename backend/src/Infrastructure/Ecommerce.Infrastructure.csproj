@@ -4,6 +4,10 @@
     <ProjectReference Include="..\Core\Ecommerce.Application\Ecommerce.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

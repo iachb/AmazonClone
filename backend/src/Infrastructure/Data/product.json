@@ -1,0 +1,56 @@
+[
+  {
+    "name": "IPhone",
+    "price": 999.99,
+    "description": "The iPhone has a camera and a music player (equivalent to that of the iPod), as well as software for sending and receiving text and voice messages.",
+    "rating": 5,
+    "vendor": "apple",
+    "stock": 1000,
+    "categoryId": 1
+  },
+  {
+    "name": "HP EliteBook Dragonfly G3",
+    "price": 4500.99,
+    "description": "The HP EliteBook Dragonfly G3 is, as its name suggests, like a dragonfly: aerodynamic, ultralight, durable, and technologically designed for productivity.",
+    "rating": 5,
+    "vendor": "HP",
+    "stock": 500,
+    "categoryId": 1
+  },
+  {
+    "name": "Gigabyte Aorus G5",
+    "price": 8900.99,
+    "description": "The Gigabyte Aorus G5 KC-5ES1130SD is a powerful mid-range laptop with a 15-inch IPS LED screen and Full HD resolution, featuring a 144 Hz refresh rate.",
+    "rating": 5,
+    "vendor": "Acer",
+    "stock": 500,
+    "categoryId": 1
+  },
+  {
+    "name": "Acer TravelMate",
+    "price": 2900.99,
+    "description": "This Acer TravelMate P2 TMP214-53 is a device designed for productivity and multimedia use, with a 14-inch Full HD screen, although it's not particularly lightweight.",
+    "rating": 5,
+    "vendor": "Acer",
+    "stock": 500,
+    "categoryId": 1
+  },
+  {
+    "name": "Tv X14313",
+    "price": 1700.99,
+    "description": "The Medion X14313 is a modest smart TV in terms of features, belonging to the entry-level range, although it boasts a 43-inch screen diagonal and 4K resolution on a 60 Hz LED LCD panel.",
+    "rating": 5,
+    "vendor": "Sony",
+    "stock": 500,
+    "categoryId": 1
+  },
+  {
+    "name": "LG Oled Flex",
+    "price": 5000.99,
+    "description": "The LG OLED Flex is a 42-inch smart TV with 4K resolution, a 120Hz refresh rate, and OLED technology. The panel features a highly effective anti-reflective coating and is compatible with NVIDIA G-Sync and AMD FreeSync technologies.",
+    "rating": 5,
+    "vendor": "LG",
+    "stock": 500,
+    "categoryId": 1
+  }
+]

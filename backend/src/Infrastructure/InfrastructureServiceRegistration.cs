@@ -1,5 +1,5 @@
-﻿using Ecommerce.Application.Persistence;
-using Ecommerce.Application.Token;
+﻿using Ecommerce.Application.Models.Token;
+using Ecommerce.Application.Persistence;
 using Ecommerce.Infrastructure.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
