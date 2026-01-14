@@ -6,31 +6,31 @@
     "productId": 1
   },
   {
-    "nombre": "Luis Sanchez",
+    "name": "Luis Sanchez",
     "rating": 5,
     "comment": "The best purchase I've ever done'",
     "productId": 2
   },
   {
-    "nombre": "Felipe Castillo",
+    "name": "Felipe Castillo",
     "rating": 5,
     "comment": "Always fulfills it's duties, never fails'",
     "productId": 3
   },
   {
-    "nombre": "Maria Lopez",
+    "name": "Maria Lopez",
     "rating": 5,
     "comment": "Amazing device",
     "productId": 4
   },
   {
-    "nombre": "Pedro Santillan",
+    "name": "Pedro Santillan",
     "rating": 5,
     "comment": "I got my hands on it in an amazing offer",
     "productId": 5
   },
   {
-    "nombre": "Jeff Smith",
+    "name": "Jeff Smith",
     "rating": 5,
     "comment": "I'll buy another one, it's a great product'",
     "productId": 6

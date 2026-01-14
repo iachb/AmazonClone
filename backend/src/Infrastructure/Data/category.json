@@ -1,29 +1,29 @@
 [
-    {
-        "nombre" : "Accesories"
-    },
-    {
-        "nombre" : "Cameras"
-    },
-    {
-        "nombre" : "Books"
-    },
-    {
-        "nombre" : "Food and Chef"
-    },
-    {
-        "nombre" : "Sports"
-    },
-    {
-        "nombre" : "Clothing and Fashion"
-    },
-    {
-        "nombre" : "Home and Decoration"
-    },
-    {
-        "nombre" : "Computers"
-    },
-    {
-        "nombre" : "Electronic Devices"
-    }
+  {
+    "name": "Accesories"
+  },
+  {
+    "name": "Cameras"
+  },
+  {
+    "name": "Books"
+  },
+  {
+    "name": "Food and Chef"
+  },
+  {
+    "name": "Sports"
+  },
+  {
+    "name": "Clothing and Fashion"
+  },
+  {
+    "name": "Home and Decoration"
+  },
+  {
+    "name": "Computers"
+  },
+  {
+    "name": "Electronic Devices"
+  }
 ]

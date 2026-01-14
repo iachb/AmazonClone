@@ -63,7 +63,7 @@ namespace Ecommerce.Infrastructure.Persistence
 
                     if (!context.Products!.Any())
                     {
-                        var productData = File.ReadAllText("../Infrastructure/Data/products.json");
+                        var productData = File.ReadAllText("../Infrastructure/Data/product.json");
                         var products = JsonConvert.DeserializeObject<List<Product>>(productData);
                         await context.Products!.AddRangeAsync(products!);
                         await context.SaveChangesAsync();
@@ -71,7 +71,7 @@ namespace Ecommerce.Infrastructure.Persistence
 
                     if (!context.Images!.Any())
                     {
-                        var imagesData = File.ReadAllText("../Infrastructure/Data/images.json");
+                        var imagesData = File.ReadAllText("../Infrastructure/Data/image.json");
                         var images = JsonConvert.DeserializeObject<List<Image>>(imagesData);
                         await context.Images!.AddRangeAsync(images!);
                         await context.SaveChangesAsync();
@@ -79,7 +79,7 @@ namespace Ecommerce.Infrastructure.Persistence
 
                     if (!context.Reviews!.Any())
                     {
-                        var reviewsData = File.ReadAllText("../Infrastructure/Data/reviews.json");
+                        var reviewsData = File.ReadAllText("../Infrastructure/Data/review.json");
                         var reviews = JsonConvert.DeserializeObject<List<Review>>(reviewsData);
                         await context.Reviews!.AddRangeAsync(reviews!);
                         await context.SaveChangesAsync();

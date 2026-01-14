@@ -8,7 +8,7 @@ namespace Ecommerce.Domain
         public string? Surname { get; set; }
         // Skipping phone number, already included in IdentityUser base class
         public string? AvatarUrl { get; set; }
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
 
     }
 }
