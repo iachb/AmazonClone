@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Ecommerce.Application.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,9 @@ builder.Services.AddControllers(opt =>
     var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
     opt.Filters.Add(new AuthorizeFilter(policy));
 });
+
+// Register FluentEmail and EmailFluentSettings
+builder.Services.AddServiceEmail(builder.Configuration);
 
 // Identity config
 IdentityBuilder identityBuilder = builder.Services.AddIdentityCore<User>();
